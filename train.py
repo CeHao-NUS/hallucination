@@ -13,6 +13,8 @@ import matplotlib.pyplot as plt
 from env import make_env
 from model import FlowMatchingConfig, FlowMatchingModel
 
+from tqdm import tqdm
+
 
 def set_seed(seed: int) -> None:
     np.random.seed(seed)
